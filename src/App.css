@@ -58,7 +58,6 @@
 }
 .cv{
   display: flex;
-  position: fixed;
   justify-content: flex-start;
 }
 .cv a{
