@@ -1,13 +1,165 @@
-.App {
-  text-align: center;
+.App{
+  font-family: 'Times New Roman', Times, serif;
 }
-.logo{
-  color: rgb(24, 23, 23);
-  /* background-color: darkblue; */
+.navbar{
+  width: 100%;
+  background-color: rgb(106, 149, 228);
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
 }
-a{
+.collapse{
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  margin: auto;
+  justify-content: end;
+
+}
+.navbar  ul li{
+ list-style: none;
+}
+.collapse a{
   text-decoration: none;
+  list-style: none;
+  color:#fff ;
+  padding:.5rem 1rem;
+
 }
+
+/* ====Hero style ===== */
+.hero{
+  /* height: calc(96vh - (48px * 2)); */
+  margin: 50px;
+  /* padding: 50px; */
+  float: left;
+}
+#hero{
+  background-color: rgb(106, 149, 228);
+}
+.typewriter-holder {
+  width: auto;
+  position: relative;
+  display: block;  
+  margin: auto;
+}
+
+.typewriter-holder p {
+  position: absolute;
+  left: 0;
+  line-height: 1rem;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+.social-link a img{
+  margin: 20px; 
+  justify-content: space-between;
+}
+.cv{
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+}
+.cv a{
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: bold;
+  color: black;
+} 
+/* hero media queries */
+@media screen and (max-width: 599px) {
+  #hero {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .hero {
+    display: flex;
+  }
+  .typewriter-holder{
+    display: contents;
+}
+  .social-link a img{
+    display: none;
+  }
+}
+
+/* ===== skills ===== */
+#skills{
+  min-height: calc((100vh - 70px)/2 +
+  ((calc(((100vw / var(--aspectRatio)) *
+  (-webkit-max-device-pixel-ratio)))/var(--baseFontSize))*1em));
+  position: relative;
+  overflow: hidden;
+  }
+ .language img{
+  width: auto!important ;
+  max-width: 8%;
+  margin: 30px;
+}
+.language img:hover{
+  opacity: 0.5px;
+  /* background-color: rgb(106, 149, 228); */
+  border: none;
+}
+
+/* ===== experience ===== */
+#experience{
+  background-color:rgb(106, 149, 228) ;
+}
+.experience{
+  margin: 50px;
+}
+.experience .text h1{
+text-align: center;
+/* font-size: clamp(.8rem,.8vw, 1.5rem)!important; */
+margin:.5rem 0;
+padding: 0;
+line-height: normal !important;
+letter-spacing: -.025em;
+word-wrap: break-word;
+}
+
+.project{
+  margin: 30px;
+  padding: 30px;
+}
+.project .card{
+  border: none;
+  background: rgb(233, 231, 231);
+}
+.project .card  button {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: rgb(106, 149, 228) ;
+}
+.project .card .card-fotter button:hover{
+  /* color: #fff; */
+  font-weight: bold;
+}
+.project .card .card-fotter img{
+  margin: 10px;
+  float: right;
+}
+
+
+
+/* blackbox generate code  */
+/* @media only screen and (max-width :768px){
+  body{
+    overflow-x: hidden!important;
+    width: auto!important;
+    position: relative!important;
+    left: -10%!important;
+    right: initial!important;
+    transition: all ease-in-out 0.5s;
+  } */
+
+
 
 /* .App-logo {
   height: 40vmin;
@@ -28,3 +180,4 @@ a{
     transform: rotate(360deg);
   }
 } */
+
