@@ -145,6 +145,12 @@ word-wrap: break-word;
   float: right;
 }
 
+/* ====== contact ====== */
+.contact{
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(106, 149, 228);
+}
 
 
 /* blackbox generate code  */
