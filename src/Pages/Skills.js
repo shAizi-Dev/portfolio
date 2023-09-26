@@ -59,7 +59,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="img">
+                    <div className="gif-img">
                         <img src={img} alt="" />
                     </div>
                 </div>

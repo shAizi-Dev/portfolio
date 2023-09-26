@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <div>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#hero">Shaizi-dev</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <>
+        <nav className ="navbar navbar-expand-lg ">
+            <div className ="container-fluid">
+                <a className ="navbar-brand" href="#hero">Shaizi-dev</a>
+                <button className ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className ="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0">
+                <div className ="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className ="navbar-nav  mb-2 mb-lg-0">
                     <li>
                     <a href="#hero" className='scrollto'>Home</a>
                     </li>
@@ -27,11 +27,9 @@ export default function Header() {
                     <a href="/">Contact Me</a>
                     </li>
                 </ul>
-                
                 </div>
             </div>
-        </nav>
-        
-    </div>
+        </nav>    
+    </>
   )
 }

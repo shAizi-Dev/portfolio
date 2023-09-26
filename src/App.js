@@ -11,12 +11,12 @@ import Contact from './Pages/Contact'
 function App() {
   return (
     <>
-    <Header/>
-    <Hero/>
-    <Skills/>
-    <Experience/>
-    <Projects/>
-    <Contact/>
+      <Header/>
+      <Hero/>
+      <Skills/>
+      <Experience/>
+      <Projects/>
+      <Contact/>
     </>
   );
 }

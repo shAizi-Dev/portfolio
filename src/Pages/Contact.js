@@ -14,27 +14,32 @@ function Contact() {
         <div id="contact">
             <div className="container-fluid">
                 <div className="contact">
-                    <div className="text">
-                        <h1>Reach Out to Me</h1>
-                        <span>DISCUSS A PROJECT? E-MAIL <img src={gmail1} width={30} height={20} alt="" /> </span>
-                    </div>
-                    <div className="about">
-                        <p>I am a Computer Engineer with an affinity for C++ and ReactJS, a passionate person when it comes to working and my goal is to expand my skills and knowledge in Web Development, I am a hard worker and eager to learn to make a valuable asset in any team.</p>
-                    </div>
-                    <div className="location">
-                        <img src={location} alt="" />
-                        <span>Punjab, Pakistan</span>
-                    </div>
-                    <div className="social-link">
-                        <a href="/"><img src={github} width={30} height={35} alt="" /></a>
-                        <a href="/"><img src={linkedin} width={30} height={30} alt="" /></a>
-                        <a href="/"><img src={gmail1} width={30} height={25} alt="" /></a>
-                        <a href="/"><img src={instagram} width={30} height={30} alt="" /></a>
-                        <a href="/"><img src={facebook} width={30} height={35} alt="" /></a>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="text">
+                                <h1>Reach Out to Me</h1>
+                                <span>DISCUSS A PROJECT? E-MAIL <img src={gmail1} width={30} height={20} alt="" /> </span>
+                            </div>
+                            <div className="about">
+                                <p>I am a Computer Engineer with an affinity for C++ and ReactJS, a passionate person when it comes to working and my goal is to expand my skills and knowledge in Web Development, I am a hard worker and eager to learn to make a valuable asset in any team.</p>
+                            </div>
+                            <div className="social-link">
+                                <a href="/"><img src={github} width={30} height={35} alt="" /></a>
+                                <a href="/"><img src={linkedin} width={30} height={30} alt="" /></a>
+                                <a href="/"><img src={gmail1} width={30} height={25} alt="" /></a>
+                                <a href="/"><img src={instagram} width={30} height={30} alt="" /></a>
+                                <a href="/"><img src={facebook} width={35} height={35} alt="" /></a>
+                            </div>
+                            <div className="location">
+                                <img src={location} alt="" />
+                                <span>Punjab, Pakistan</span>
+                            </div>
+                        </div>
                     </div>
                     <div className="made">
                         <span>Made by shaizi-dev</span>
                     </div>
+                    <hr />
                 </div>
             </div>
         </div>

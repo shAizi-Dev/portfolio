@@ -59,8 +59,8 @@ function Projects() {
                         </div>
                         <div className="card-fotter">
                             <div className="button">
-                                <a href="https://github.com/shAizi-Dev/C-Plus-project" target="_blank" ><button>Source</button></a>
-                                <a href="/" target="_blank" ><button>Demo</button></a>
+                                <a href="https://github.com/shAizi-Dev/C-Plus-project" target="_blank" ><button>Source Code</button></a>
+                                {/* <a href="/" target="_blank" ><button>Demo</button></a> */}
                             </div>                          
                             <div className="img">
                                 <img src={github} width={30} height={30} alt="" />
@@ -108,8 +108,8 @@ function Projects() {
                         </div>
                         < div className="card-fotter">
                             <div className="button">
-                                <a href="https://github.com/shAizi-Dev/secure-valunt" target="_blank" ><button>Source</button></a>
-                                <a href="/" target="_blank" ><button>Demo</button></a>
+                                <a href="https://github.com/shAizi-Dev/secure-valunt" target="_blank" ><button>Source Code</button></a>
+                                {/* <a href="/" target="_blank" ><button>Demo</button></a> */}
                             </div>    
                             <div className="img">
                                 <img src={github} width={30} height={30} alt="" />
