@@ -34,7 +34,7 @@ function Projects() {
                         <div className="card-fotter">
                             <div className="button">
                                 <a href="https://github.com/shAizi-Dev/netflix-clone" target="_blank" ><button>Source</button></a>
-                                <a href="/" target="_blank" ><button>Demo</button></a>
+                                <a href="https://shaizidevnetflix-clone.netlify.app/" target="_blank" ><button>Demo</button></a>
                             </div>
                             <div className="netfli-img">
                                 <img src={github} width={30} height={30} alt="" />
@@ -84,7 +84,7 @@ function Projects() {
                         < div className="card-fotter">
                             <div className="button">
                                 <a href="https://github.com/shAizi-Dev/microsoft-clone" target="_blank" ><button>Source</button></a>
-                                <a href="/" target="_blank" ><button>Demo</button></a>
+                                <a href="https://shaizidevmicrosoft.netlify.app/" target="_blank" ><button>Demo</button></a>
                             </div>    
                             <div className="img">
                                 <img src={github} width={30} height={30} alt="" />
