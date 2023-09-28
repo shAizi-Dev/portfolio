@@ -14,6 +14,7 @@ import cplus from '../image/frontend/cplus.png'
 function Projects() {
   return (
     <div>
+        <hr />
       <div className="container-fluid" id='project'>
         <div className="text">
             <h1 className='text-center m-5'>Projects</h1>

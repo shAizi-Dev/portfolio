@@ -24,7 +24,7 @@ export default function Header() {
                     <a href="#project" className='scrollto'>Projects</a>
                     </li>
                     <li>
-                    <a href="/">Contact Me</a>
+                    <a href="#contact" className='scrollto'>Contact Me</a>
                     </li>
                 </ul>
                 </div>
