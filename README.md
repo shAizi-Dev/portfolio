@@ -1,4 +1,3 @@
-### live open[https://shaizi-dev.github.io/portfolio/]
 
 # Getting Started with Create React App
 
