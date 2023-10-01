@@ -124,7 +124,11 @@ function Projects() {
         </div>
         {/* second row */}
         <div className='row'>
-            <button className='btn text-center' >See More Projects</button>
+            <div className='project'>
+                <div className='card'>
+                    <a href=''><button className='btn'>See More Projects</button> </a>
+                </div>
+            </div>
         </div>
       </div>
     </div>
