@@ -120,7 +120,10 @@ function Projects() {
                     </div>
                 </div>
             </div>
-
+        </div>
+        {/* second row */}
+        <div className='row'>
+            <button className='btn text-center' >See More Projects</button>
         </div>
       </div>
     </div>

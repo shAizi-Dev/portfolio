@@ -6,7 +6,6 @@ import Hero from './Pages/Hero';
 import Skills from './Pages/Skills';
 import Projects from './Pages/Projects'
 import Contact from './Pages/Contact'
-import Button from './Components/button/Button';
 
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <Skills/>
       <Experience/>
       <Projects/>
-      <Button/>
       <Contact/>
     </>
   );
