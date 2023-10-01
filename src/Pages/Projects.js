@@ -122,9 +122,7 @@ function Projects() {
             </div>
         </div>
         {/* second row */}
-        <div className='row mb-3 text-center'>
-            <a href='https://shaizidev.netlify.app/' target='_blank'><button className='btn btn-light'>See More Projects</button> </a>
-        </div>
+            <a className='mb-3 text-center' href='https://shaizidev.netlify.app/' target='_blank'><button className='btn btn-light'>See More Projects</button> </a>
       </div>
     </div>
   )
