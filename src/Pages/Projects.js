@@ -123,7 +123,7 @@ function Projects() {
         </div>
         {/* second row */}
         <div>
-            <button className='btn btn-outline-danger'><a href='https://shaizidev.netlify.app/'>See More Projects </a></button>
+        <a href='https://shaizidev.netlify.app/'><button className='btn S'>See More Projects</button> </a>
         </div>
       </div>
     </div>
