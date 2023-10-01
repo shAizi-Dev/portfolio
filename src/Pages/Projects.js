@@ -123,7 +123,7 @@ function Projects() {
         </div>
         {/* second row */}
         <div className='row'>
-            <div className='project' style={{display: 'flex', justifyContent:'center'}}>
+            <div className='project'>
                 <div className='card'>
                     <a href='https://shaizidev.netlify.app/'>See More Projects </a>
                 </div>
