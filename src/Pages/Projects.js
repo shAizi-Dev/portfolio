@@ -120,10 +120,9 @@ function Projects() {
                     </div>
                 </div>
             </div>
-        </div>
-        {/* second row */}
-        <div>
-            <button class="button" style="vertical-align:middle"><span>See More Projects </span></button>
+            <div>
+                <button class="button" style="vertical-align:middle"><span>See More Projects </span></button>
+            </div>
         </div>
       </div>
     </div>
