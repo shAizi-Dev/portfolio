@@ -125,12 +125,10 @@ function Projects() {
             </a> */}
         </div>
         {/* second row */}
-        <div className='row'>
-            <div className='card'>
+        <div className='text-center mb-4'>
             <a  href='https://shaizidev.netlify.app/' target='_blank'>
-                <button className='btn btn-light text-center'>See More Projects</button>
+                <button className='btn btn-light'>See More Projects</button>
             </a>
-            </div>
         </div>
       </div>
     </div>
