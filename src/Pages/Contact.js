@@ -24,9 +24,9 @@ function Contact() {
                                 <p>I am a Computer Engineer with an affinity for C++ and ReactJS, a passionate person when it comes to working and my goal is to expand my skills and knowledge in Web Development, I am a hard worker and eager to learn to make a valuable asset in any team.</p>
                             </div>
                             <div className="social-link">
-                                <a href="https://github.com/shAizi-Dev" target='_blank'><img src={github} width={30} height={35} alt="" /></a>
+                                <a href="https://github.com/shAizi-Dev" target='_blank'><img src={github} width={35} height={35} alt="" /></a>
                                 <a href="https://www.linkedin.com/in/shahroz-imtiaz-468809238/" target='_blank'><img src={linkedin} width={30} height={30} alt="" /></a>
-                                {/* <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#chats" target='_blank'><img src={gmail1} width={30} height={25} alt="" /></a> */}
+                                <a href="/" onClick={showAlert}><img src={gmail1} width={30} height={25} alt="" /></a>
                                 <a href="https://www.instagram.com/shaizidev/" target='_blank'><img src={instagram} width={30} height={30} alt="" /></a>
                                 <a href="https://www.facebook.com/groups/1792551574532389" target='_blank'><img src={facebook} width={35} height={35} alt="" /></a>
                             </div>
@@ -47,5 +47,8 @@ function Contact() {
     </div>
   )
 }
+const showAlert = () => {
+    alert('discuss Any querry through E-mail </br> shaizidev@gmail.com');
+ };
 
 export default Contact
