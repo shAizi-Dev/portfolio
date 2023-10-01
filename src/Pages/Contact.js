@@ -26,7 +26,7 @@ function Contact() {
                             <div className="social-link">
                                 <a href="https://github.com/shAizi-Dev" target='_blank'><img src={github} width={30} height={35} alt="" /></a>
                                 <a href="https://www.linkedin.com/in/shahroz-imtiaz-468809238/" target='_blank'><img src={linkedin} width={30} height={30} alt="" /></a>
-                                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#chats" target='_blank'><img src={gmail1} width={30} height={25} alt="" /></a>
+                                {/* <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#chats" target='_blank'><img src={gmail1} width={30} height={25} alt="" /></a> */}
                                 <a href="https://www.instagram.com/shaizidev/" target='_blank'><img src={instagram} width={30} height={30} alt="" /></a>
                                 <a href="https://www.facebook.com/groups/1792551574532389" target='_blank'><img src={facebook} width={35} height={35} alt="" /></a>
                             </div>
