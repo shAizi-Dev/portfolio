@@ -110,7 +110,6 @@ function Projects() {
                         < div className="card-fotter">
                             <div className="button">
                                 <a href="https://github.com/shAizi-Dev/secure-valunt" target="_blank" ><button>Source Code</button></a>
-                                <button className='btn text-center' >See More Projects</button>
                                 {/* <a href="/" target="_blank" ><button>Demo</button></a> */}
                             </div>    
                             <div className="img">
@@ -124,11 +123,11 @@ function Projects() {
         </div>
         {/* second row */}
         <div className='row'>
-            <div className='project'>
+            {/* <div className='project'> */}
                 <div className='card'>
-                    <a href=''><button className='btn'>See More Projects</button> </a>
+                    <a href='https://shaizidev.netlify.app/'><button className='btn'>See More Projects</button> </a>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
       </div>
     </div>
