@@ -124,9 +124,9 @@ function Projects() {
         {/* second row */}
         <div className='row'>
             <div className='project' style={{display: 'flex', justifyContent:'center'}}>
-                {/* <div className='card'> */}
-                    <a href='https://shaizidev.netlify.app/'><button className='btn'>See More Projects</button> </a>
-                {/* </div> */}
+                <div className='card'>
+                    <a href='https://shaizidev.netlify.app/'>See More Projects </a>
+                </div>
             </div>
         </div>
       </div>
