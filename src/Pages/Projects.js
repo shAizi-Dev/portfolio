@@ -121,7 +121,7 @@ function Projects() {
                 </div>
             </div>
             <div>
-                <button class="button" style="vertical-align:middle"><span>See More Projects </span></button>
+                <button class="seebutton" style="vertical-align:middle"><span>See More Projects </span></button>
             </div>
         </div>
       </div>
