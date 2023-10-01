@@ -123,11 +123,11 @@ function Projects() {
         </div>
         {/* second row */}
         <div className='row'>
-            {/* <div className='project'> */}
+            <div className='project' style={{display: 'flex', justifyContent:'center'}}>
                 <div className='card'>
                     <a href='https://shaizidev.netlify.app/'><button className='btn'>See More Projects</button> </a>
                 </div>
-            {/* </div> */}
+            </div>
         </div>
       </div>
     </div>
