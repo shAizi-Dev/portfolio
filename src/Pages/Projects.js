@@ -110,6 +110,7 @@ function Projects() {
                         < div className="card-fotter">
                             <div className="button">
                                 <a href="https://github.com/shAizi-Dev/secure-valunt" target="_blank" ><button>Source Code</button></a>
+                                <button className='btn text-center' >See More Projects</button>
                                 {/* <a href="/" target="_blank" ><button>Demo</button></a> */}
                             </div>    
                             <div className="img">
