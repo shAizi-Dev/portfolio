@@ -120,9 +120,14 @@ function Projects() {
                     </div>
                 </div>
             </div>
+            <a  href='https://shaizidev.netlify.app/' target='_blank'>
+                <button className='btn btn-light text-center'>See More Projects</button>
+            </a>
         </div>
         {/* second row */}
-            <a  href='https://shaizidev.netlify.app/' target='_blank'><button className='btn btn-light text-center'>See More Projects</button> </a>
+            {/* <a  href='https://shaizidev.netlify.app/' target='_blank'>
+                <button className='btn btn-light text-center'>See More Projects</button>
+            </a> */}
       </div>
     </div>
   )
