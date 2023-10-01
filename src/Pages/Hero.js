@@ -26,9 +26,9 @@ function Hero() {
                             </div><br />
                             <div className="social-link p-5">
                                 <a href="https://github.com/shAizi-Dev" target="_blank"><img src={github} width={30} height={30} alt="github" /></a>
-                                <a href="/"><img src={linkedin} width={30} height={30} /></a>
-                                <a href="/"><img src={facebook} width={35} height={35} /></a>
-                                <a href="/"><img src={mail} width={35} height={35} /></a> 
+                                <a href="https://www.linkedin.com/in/shahroz-imtiaz-468809238/" target='_blank'><img src={linkedin} width={30} height={30} /></a>
+                                {/* <a href="https://www.facebook.com/groups/1792551574532389" target='_blank'><img src={facebook} width={35} height={35} /></a> */}
+                                {/* <a href="/"><img src={mail} width={35} height={35} /></a>  */}
                             </div>   
                             <div className="cv m-2 flex">
                             {/* Download Cv */}
