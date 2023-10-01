@@ -122,13 +122,13 @@ function Projects() {
             </div>
         </div>
         {/* second row */}
-        <div className='row'>
+        {/* <div className='row'>
             <div className='project'>
                 <div className='card'>
                     <a href='https://shaizidev.netlify.app/'>See More Projects </a>
                 </div>
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
