@@ -120,9 +120,10 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div>
-                <button class="seebutton" style="vertical-align:middle"><span>See More Projects </span></button>
-            </div>
+        </div>
+        {/* second row */}
+        <div className='row'>
+            <a href='https://shaizidev.netlify.app/'><button className='btn btn-light'>See More Projects</button> </a>
         </div>
       </div>
     </div>
