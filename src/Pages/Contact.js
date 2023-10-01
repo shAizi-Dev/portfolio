@@ -48,7 +48,7 @@ function Contact() {
   )
 }
 const showAlert = () => {
-    alert('discuss Any querry through E-mail '<br> 'shaizidev@gmail.com');
+    alert('Discuss Any querry through E-mail => <br>shaizidev@gmail.com');
  };
 
 export default Contact
