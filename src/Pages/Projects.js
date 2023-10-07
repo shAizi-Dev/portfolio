@@ -85,7 +85,7 @@ function Projects() {
                         < div className="card-fotter">
                             <div className="button">
                                 <a href="https://github.com/shAizi-Dev/microsoft-clone" target="_blank" ><button>Source</button></a>
-                                <a href="https://shaizidevmicrosoft.netlify.app/" target="_blank" ><button>Demo</button></a>
+                                <a href="https://shaizidevmicrosoftclone.netlify.app/" target="_blank" ><button>Demo</button></a>
                             </div>    
                             <div className="img">
                                 <img src={github} width={30} height={30} alt="" />
@@ -122,7 +122,7 @@ function Projects() {
             </div>
         </div>
         <div className='text-center mb-4'>
-            <a  href='https://shaizidev.netlify.app/projects' target='_blank'>
+            <a  href='https://shaizidev/projects.netlify.app' target='_blank'>
                 <button className='btn btn-light'>See More Projects</button>
             </a>
         </div>
