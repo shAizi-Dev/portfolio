@@ -153,7 +153,7 @@
 }
 .language img:hover{
   opacity: 0.5px;
-  /* background-color: rgb(106, 149, 228); */
+  background-color: rgb(106, 149, 228);
   border: none;
 }
 
@@ -173,12 +173,13 @@
   }
   #skills .text h1{
     margin-top: 20px;
+    padding-left: 20px;
     /* font-size: 10px; */
     letter-spacing:normal;
   }
-  /* #skills h3{
-    display: none;
-  } */
+  #skills h3{
+    padding-left: 10px;
+  }
   #skills img{
     /* width: auto; */
     margin: 0;
