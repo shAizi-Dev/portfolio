@@ -122,7 +122,7 @@ function Projects() {
             </div>
         </div>
         <div className='text-center mb-4'>
-            <a  href='https://shaizidev.netlify.app/' target='_blank'>
+            <a  href='https://shaizidev.netlify.app/projects' target='_blank'>
                 <button className='btn btn-light'>See More Projects</button>
             </a>
         </div>
