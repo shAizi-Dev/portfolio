@@ -32,7 +32,7 @@ function Hero() {
                             </div>   
                             <div className="cv m-2 flex">
                             {/* Download Cv */}
-                            <a href="https://drive.google.com/file/d/1M9kthBSRWoQVETZABkqwU0G9GsK02QLU/view?usp=drive_link" target="_blank"><img src={resume} alt="cv" width={70} height={60} /><TypeWriter data={cvtypeWriter}/></a>
+                            <a href="https://drive.google.com/file/d/1RH42t1r_1nTad31U62o-YXOYTIjnLn3x/view" target="_blank"><img src={resume} alt="cv" width={70} height={60} /><TypeWriter data={cvtypeWriter}/></a>
                         </div>                
                         </div>
                 </div>
