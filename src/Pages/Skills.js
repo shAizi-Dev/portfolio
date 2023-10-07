@@ -29,7 +29,7 @@ function Skills() {
                     <div className="skills">
                         <div className="text">
                             <h1>What I do</h1>
-                            <div className="p">
+                            <div className="paragraph text-center">
                                 <p>Web Developer who wants to explore every tech stack</p>
                             </div>
                         </div>
@@ -59,8 +59,8 @@ function Skills() {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="gif-img">
-                        <img src={img} alt="" />
+                    <div className="gif-img ">
+                        <img src={img} width={500} alt="" />
                     </div>
                 </div>
             </div>

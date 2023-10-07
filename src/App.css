@@ -102,6 +102,7 @@
   font-weight: bold;
   color: black;
 } 
+
 /* hero media queries */
 @media (max-width: 768px) {
   .container-fluid {
@@ -135,12 +136,9 @@
     margin-top: 50px;
   }
 
-  /* .col-md-6 .gif-img {
-    display: flex;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-  } */
+  .col-md-6 .gif-img {
+    display: none;
+  }
 }
 
 /* ===== skills ===== */
@@ -172,7 +170,7 @@
 
   #skills .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   #skills .text h1{
     margin-top: 20px;
@@ -192,9 +190,12 @@
   }
   #skills .gif-img{
     display: flex;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
+    justify-content: flex-end;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-right: 40px;
+    margin-top: -200px;
   }
 }
 

@@ -38,7 +38,7 @@ function Hero() {
                 </div>
                 <div class="col-md-6">
                     <div className="gif-img">
-                        <img src={heroimg} alt="" />
+                        <img src={heroimg} width={500} alt="" />
                     </div>
                 </div>
             </div>

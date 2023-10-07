@@ -24,7 +24,8 @@ function Experience() {
                                     <h1>University of Faisalabad</h1>
                                 </div>
                                 <div className="card-body">
-                                    <p className='text-muted'>B.Tech. Computer Science</p>
+                                    <p className='text-muted'>BS Computer Science</p>
+                                    <span className='text-muted d-flex justify-content-end'>2021-continue</span>
                                 </div>
                             </div>
                             <hr />
@@ -36,7 +37,7 @@ function Experience() {
                         </div>
                         <div className="col-md-6">
                         <div className="card">
-                                <div className="card-title">
+                                <div className="card-title m-3">
                                     <h1>Web Developer</h1>
                                 </div>
                                 <div className="card-body">
@@ -77,7 +78,8 @@ function Experience() {
                                 </div>
                                 <div className="card-body">
                                     <p className='text-muted'>Intermediate</p>
-                                    <span className='text-muted p-5'>obtained: 75.5%</span>
+                                    <span className='text-muted'>obtained: 75.5%</span>
+                                    <span className='text-muted d-flex justify-content-end'>2021-continue</span>
                                 </div>
                             </div>
                             <hr />
@@ -90,7 +92,7 @@ function Experience() {
                         </div>
                         <div className="col-md-6">
                             <div className="card">
-                                <div className="card-title">
+                                <div className="card-title m-3">
                                     <h1>Desktop Application</h1>
                                 </div>
                                 <div className="card-body">
