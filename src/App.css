@@ -1,6 +1,11 @@
 .App{
   font-family: 'Times New Roman', Times, serif;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navbar{
   width: 100%;
   background-color: rgb(106, 149, 228);
@@ -62,6 +67,7 @@
 
 /* ====Hero style ===== */
 .hero{
+  /* height: 93vh; */
   /* height: calc(96vh - (48px * 2)); */
   margin: 50px;
   /* padding: 50px; */
@@ -116,6 +122,7 @@
 
   .col-md-6 {
     width: 100%;
+    top: 0;
   }
 
   .hero {
@@ -137,7 +144,18 @@
   }
 
   .col-md-6 .gif-img {
-    display: none;
+    /* display: none; */
+    display: flex;
+    justify-content: flex-end;
+    /* float: right; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-right: 40px;
+    margin-top: -200px;
+    top: 0;
+    outline-color: black;
+
   }
 }
 
