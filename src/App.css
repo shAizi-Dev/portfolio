@@ -1,11 +1,43 @@
-.App{
-  font-family: 'Times New Roman', Times, serif;
-}
+
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  font-family: 'Times New Roman', Times, serif;
 }
+.row{
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #39566f; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #39566f;  */
+  opacity: 0.5;
+}
+
 .navbar{
   width: 100%;
   background-color: rgb(106, 149, 228);
@@ -13,6 +45,10 @@
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   color: #fff;
+}
+.navbar-brand{
+  font-size: 25px;
+  margin-left: 10px;
 }
 .collapse{
   display: flex;
@@ -76,8 +112,12 @@
 #hero{
   background-color: rgb(106, 149, 228);
 }
+.hero .text{
+  text-align: start;
+}
 #hero .text h1{
   color: #fff;
+  font-size: 700;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 .typewriter-holder {
@@ -92,11 +132,11 @@
   left: 0;
   line-height: 1rem;
   /* font-weight: bold; */
-  font-size: 20px;
+  font-size: medium;
+  text-align: start;
 }
 .social-link a img{
-  margin: 20px; 
-  justify-content: space-between;
+  margin-left: 20px; 
 }
 .cv{
   display: flex;
@@ -130,13 +170,13 @@
   }
 
   .text {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .social-link {
     justify-content: center;
     display: flex;
-    margin-left: -10px;
+    /* margin-left: -10px; */
   }
 
   .cv {

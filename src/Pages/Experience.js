@@ -79,7 +79,7 @@ function Experience() {
                                 <div className="card-body">
                                     <p className='text-muted'>Intermediate</p>
                                     <span className='text-muted'>obtained: 75.5%</span>
-                                    <span className='text-muted d-flex justify-content-end'>2021-continue</span>
+                                    <span className='text-muted d-flex justify-content-end'>2021</span>
                                 </div>
                             </div>
                             <hr />

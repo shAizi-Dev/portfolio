@@ -37,8 +37,10 @@ function Hero() {
                         </div>
                 </div>
                 <div class="col-md-6">
-                    <div className="gif-img">
-                        <img src={heroimg} width={500} alt="" />
+                    <div className="gif-img mt-5">
+                        {/* <img src={heroimg} width={500} alt="" /> */}
+                        <iframe id="vp1s9BO6" className='mt-4' title="Video Player" width="544" height="306" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1705582783&f=s9BO6bSWwqg3mWICxw0kWw&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen="allow"></iframe> <br />
+                         
                     </div>
                 </div>
             </div>
