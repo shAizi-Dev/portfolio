@@ -248,6 +248,13 @@ iframe{
   border: none;
 }
 
+/* @media (max-width: 600px){
+  #skills img {
+      width: 200px;
+      height: fit-content;
+}
+} */
+
 /* ======== skills media  ========== */
 @media (max-width: 768px) {
   #skills {
@@ -284,7 +291,7 @@ iframe{
     width: 200px;
     height: 200px;
     margin: auto;
-    margin-right: 40px;
+    /* margin-right: 30px; */
     margin-top: -200px;
   }
 }
